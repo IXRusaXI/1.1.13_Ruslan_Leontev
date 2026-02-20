@@ -1,11 +1,11 @@
-import TodoInput from "../Inputs/TodoInput";
+import TodoItem from "./TodoItem";
 
 function TodoList() {
     return (
         <ul className="todo-list">
-          <TodoInput />
-          <TodoInput />
-          <TodoInput />
+          <TodoItem />
+          <TodoItem />
+          <TodoItem />
         </ul>
     );
 }
